@@ -1,0 +1,47 @@
+/* CSS Document */
+
+/** Event Listing Page **/
+
+.em-events-search {
+	display: none;
+}
+
+.events-list li {
+	border-bottom:1px solid $lightgray;
+	padding:10px 20px;
+}
+
+div.calendar {
+	background:$lightgray;
+	border:1px solid $mediumgray;
+	width:40px;
+	float:left;
+	margin:0 20px 10px 0;
+}
+
+div.calendar span
+{
+	display:block;
+	text-align:center;
+	color:#000;
+	font-size:11px;
+}
+
+div.calendar span.day
+{
+	background:$red;
+	color:$white;
+	font-size:15px;
+	font-weight:bold;
+	padding:3px 0;
+}
+
+#em-wrapper li  {
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+#em-wrapper li h4 {
+	margin-top:0;
+}
+

@@ -1,0 +1,728 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+@font-face {
+  font-family: 'Minion Pro';
+  src: url("campaign-2020/fonts/MinionPro-Regular.otf") format("otf"); }
+@font-face {
+  font-family: 'Myriad Pro Light';
+  src: url("campaign-2020/fonts/MyriadPro-It.otf") format("otf"); }
+.campaign_2020 #wrapper {
+  clear: both; }
+.campaign_2020 section#content.spaced {
+  padding-top: 0;
+  margin-bottom: 0; }
+.campaign_2020 #content {
+  margin-top: 0; }
+  .campaign_2020 #content .container {
+    max-width: 1400px; }
+    @media (max-width: 1200px) {
+      .campaign_2020 #content .container {
+        width: 100%; } }
+    @media (max-width: 767px) {
+      .campaign_2020 #content .container {
+        margin-bottom: 0; } }
+  @media (max-width: 767px) {
+    .campaign_2020 #content .wpb_text_column {
+      padding: 0 10px; } }
+  @media (max-width: 991px) {
+    .campaign_2020 #content .wpb_single_image figure {
+      display: table;
+      margin: auto; } }
+  @media (max-width: 767px) {
+    .campaign_2020 #content .wpb_single_image figure {
+      max-width: 85%; } }
+  @media (max-width: 540px) {
+    .campaign_2020 #content .wpb_single_image figure {
+      max-width: 95%; } }
+  .campaign_2020 #content a {
+    text-decoration: none !important; }
+  .campaign_2020 #content p {
+    font-size: 21px;
+    color: #616368;
+    font-family: "Myriad Pro Light";
+    margin-bottom: 30px; }
+    .campaign_2020 #content p:last-of-type {
+      margin-bottom: 0; }
+    @media (max-width: 991px) {
+      .campaign_2020 #content p {
+        font-size: 19px;
+        margin-bottom: 20px; } }
+    @media (max-width: 767px) {
+      .campaign_2020 #content p {
+        font-size: 18px; } }
+  .campaign_2020 #content .campaign-2020-button {
+    background: #003559;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 18px;
+    padding: 2px 30px 0 30px;
+    text-decoration: none !important; }
+    .campaign_2020 #content .campaign-2020-button:hover {
+      background: #00518a;
+      color: white; }
+  .campaign_2020 #content h3 {
+    font-size: 26px;
+    font-weight: bold; }
+    @media (max-width: 991px) {
+      .campaign_2020 #content h3 {
+        font-size: 22px; } }
+    @media (max-width: 480px) {
+      .campaign_2020 #content h3 {
+        font-size: 20px; } }
+  .campaign_2020 #content .gray {
+    color: #616368 !important; }
+  .campaign_2020 #content .blue {
+    color: #00518a !important; }
+  .campaign_2020 #content .white {
+    color: #ffffff !important; }
+  .campaign_2020 #content .wpb_text_column.white p {
+    color: #ffffff !important; }
+.campaign_2020 .gform_button.button {
+  background: #003559;
+  color: white; }
+  .campaign_2020 .gform_button.button:hover {
+    background: #00518a; }
+
+.page-id-33047 #content .container .title-block h1.small, .page-id-33063 #content .container .title-block h1.small, .page-id-33075 #content .container .title-block h1.small, .page-id-33129 #content .container .title-block h1.small {
+  font-size: 20px;
+  color: #616368;
+  font-weight: 600;
+  display: table;
+  padding-top: 35px;
+  font-family: 'Myriad Pro'; }
+  .page-id-33047 #content .container .title-block h1.small::after, .page-id-33063 #content .container .title-block h1.small::after, .page-id-33075 #content .container .title-block h1.small::after, .page-id-33129 #content .container .title-block h1.small::after {
+    content: "";
+    height: 1px;
+    width: 100%;
+    position: relative;
+    display: block;
+    top: 5px;
+    background-color: #8eb8d0; }
+.page-id-33047 #content .container .title-block h2, .page-id-33063 #content .container .title-block h2, .page-id-33075 #content .container .title-block h2, .page-id-33129 #content .container .title-block h2 {
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "myriad-pro"; }
+  @media (max-width: 767px) {
+    .page-id-33047 #content .container .title-block h2, .page-id-33063 #content .container .title-block h2, .page-id-33075 #content .container .title-block h2, .page-id-33129 #content .container .title-block h2 {
+      font-size: 24px; } }
+.page-id-33047 #content .container .landing-pre-header, .page-id-33063 #content .container .landing-pre-header, .page-id-33075 #content .container .landing-pre-header, .page-id-33129 #content .container .landing-pre-header {
+  display: none; }
+.page-id-33047 #content .container .campaign-white-bttn, .page-id-33063 #content .container .campaign-white-bttn, .page-id-33075 #content .container .campaign-white-bttn, .page-id-33129 #content .container .campaign-white-bttn {
+  text-decoration: none; }
+  .page-id-33047 #content .container .campaign-white-bttn .campaign-button-white, .page-id-33063 #content .container .campaign-white-bttn .campaign-button-white, .page-id-33075 #content .container .campaign-white-bttn .campaign-button-white, .page-id-33129 #content .container .campaign-white-bttn .campaign-button-white {
+    background: white;
+    padding: 5px 14px;
+    color: #003559;
+    border: 1px solid #8eb8d0;
+    display: table;
+    margin: auto;
+    margin-top: 10px;
+    width: 100%; }
+    .page-id-33047 #content .container .campaign-white-bttn .campaign-button-white:hover, .page-id-33063 #content .container .campaign-white-bttn .campaign-button-white:hover, .page-id-33075 #content .container .campaign-white-bttn .campaign-button-white:hover, .page-id-33129 #content .container .campaign-white-bttn .campaign-button-white:hover {
+      opacity: .8; }
+.page-id-33047 #content .container .mobile-content, .page-id-33063 #content .container .mobile-content, .page-id-33075 #content .container .mobile-content, .page-id-33129 #content .container .mobile-content {
+  display: none; }
+  @media (max-width: 767px) {
+    .page-id-33047 #content .container .mobile-content, .page-id-33063 #content .container .mobile-content, .page-id-33075 #content .container .mobile-content, .page-id-33129 #content .container .mobile-content {
+      display: block; } }
+@media (max-width: 767px) {
+  .page-id-33047 #content .container .desktop-content, .page-id-33063 #content .container .desktop-content, .page-id-33075 #content .container .desktop-content, .page-id-33129 #content .container .desktop-content {
+    display: none; } }
+.page-id-33047 #content .container .our-vision-quote, .page-id-33063 #content .container .our-vision-quote, .page-id-33075 #content .container .our-vision-quote, .page-id-33129 #content .container .our-vision-quote {
+  padding: 0 45px 40px 50px; }
+  @media (max-width: 1199px) {
+    .page-id-33047 #content .container .our-vision-quote, .page-id-33063 #content .container .our-vision-quote, .page-id-33075 #content .container .our-vision-quote, .page-id-33129 #content .container .our-vision-quote {
+      padding: 0 25px 35px 25px; } }
+  .page-id-33047 #content .container .our-vision-quote p, .page-id-33063 #content .container .our-vision-quote p, .page-id-33075 #content .container .our-vision-quote p, .page-id-33129 #content .container .our-vision-quote p {
+    color: #ffffff; }
+  .page-id-33047 #content .container .our-vision-quote .minion, .page-id-33063 #content .container .our-vision-quote .minion, .page-id-33075 #content .container .our-vision-quote .minion, .page-id-33129 #content .container .our-vision-quote .minion {
+    font-family: "Minion Pro";
+    margin-bottom: 10px; }
+    @media (min-width: 993px) {
+      .page-id-33047 #content .container .our-vision-quote .minion, .page-id-33063 #content .container .our-vision-quote .minion, .page-id-33075 #content .container .our-vision-quote .minion, .page-id-33129 #content .container .our-vision-quote .minion {
+        padding-right: 17px; } }
+  .page-id-33047 #content .container .our-vision-quote p:nth-of-type(1), .page-id-33063 #content .container .our-vision-quote p:nth-of-type(1), .page-id-33075 #content .container .our-vision-quote p:nth-of-type(1), .page-id-33129 #content .container .our-vision-quote p:nth-of-type(1) {
+    font-size: 28px;
+    line-height: 1.6;
+    padding-bottom: 7px; }
+    @media (max-width: 767px) {
+      .page-id-33047 #content .container .our-vision-quote p:nth-of-type(1), .page-id-33063 #content .container .our-vision-quote p:nth-of-type(1), .page-id-33075 #content .container .our-vision-quote p:nth-of-type(1), .page-id-33129 #content .container .our-vision-quote p:nth-of-type(1) {
+        font-size: 22px;
+        padding-bottom: 0; } }
+  .page-id-33047 #content .container .our-vision-quote .sig, .page-id-33063 #content .container .our-vision-quote .sig, .page-id-33075 #content .container .our-vision-quote .sig, .page-id-33129 #content .container .our-vision-quote .sig {
+    font-size: 18px;
+    line-height: normal;
+    border-bottom: none;
+    position: relative; }
+    @media (max-width: 767px) {
+      .page-id-33047 #content .container .our-vision-quote .sig, .page-id-33063 #content .container .our-vision-quote .sig, .page-id-33075 #content .container .our-vision-quote .sig, .page-id-33129 #content .container .our-vision-quote .sig {
+        font-size: 16px; } }
+    @media (max-width: 992px) {
+      .page-id-33047 #content .container .our-vision-quote .sig, .page-id-33063 #content .container .our-vision-quote .sig, .page-id-33075 #content .container .our-vision-quote .sig, .page-id-33129 #content .container .our-vision-quote .sig {
+        display: table;
+        left: unset;
+        max-width: 300px;
+        margin: 10px auto; } }
+    .page-id-33047 #content .container .our-vision-quote .sig span, .page-id-33063 #content .container .our-vision-quote .sig span, .page-id-33075 #content .container .our-vision-quote .sig span, .page-id-33129 #content .container .our-vision-quote .sig span {
+      font-style: italic;
+      margin-top: 6px;
+      display: inline-block;
+      font-size: 16px;
+      font-weight: lighter; }
+.page-id-33047 #content .container .our-vision-email, .page-id-33063 #content .container .our-vision-email, .page-id-33075 #content .container .our-vision-email, .page-id-33129 #content .container .our-vision-email {
+  padding: 0 25px; }
+  .page-id-33047 #content .container .our-vision-email .email-wrap, .page-id-33063 #content .container .our-vision-email .email-wrap, .page-id-33075 #content .container .our-vision-email .email-wrap, .page-id-33129 #content .container .our-vision-email .email-wrap {
+    text-align: center;
+    padding: 20px;
+    background: #00518a;
+    max-width: 300px;
+    margin: auto;
+    display: table; }
+    .page-id-33047 #content .container .our-vision-email .email-wrap p, .page-id-33063 #content .container .our-vision-email .email-wrap p, .page-id-33075 #content .container .our-vision-email .email-wrap p, .page-id-33129 #content .container .our-vision-email .email-wrap p {
+      font-size: 16px; }
+    .page-id-33047 #content .container .our-vision-email .email-wrap p:first-of-type, .page-id-33063 #content .container .our-vision-email .email-wrap p:first-of-type, .page-id-33075 #content .container .our-vision-email .email-wrap p:first-of-type, .page-id-33129 #content .container .our-vision-email .email-wrap p:first-of-type {
+      font-size: 22px;
+      margin-bottom: 10px; }
+
+@keyframes menu_link {
+  from {
+    width: 0; }
+  to {
+    width: 100%; } }
+@keyframes logo_hide {
+  from {
+    height: auto; }
+  to {
+    height: 0px !important; } }
+.campaign_2020 {
+  overflow-x: hidden; }
+  .campaign_2020 #header {
+    position: relative;
+    top: 0 !important;
+    padding: 0;
+    border-top: 20px solid #00518a;
+    height: fit-content !important; }
+    @media (max-width: 767px) {
+      .campaign_2020 #header {
+        border-top: 10px solid #00518a; } }
+    .campaign_2020 #header .landing-pre-header {
+      width: 100%;
+      background: url("/wp-content/themes/lcoh-2017/images/campaign-2020/trajectory-landing-header-bg-2.jpg") no-repeat center center;
+      background-size: cover;
+      min-height: 420px; }
+      @media (min-width: 1800px) {
+        .campaign_2020 #header .landing-pre-header {
+          min-height: 520px; } }
+      @media (max-width: 1799px) {
+        .campaign_2020 #header .landing-pre-header {
+          min-height: 460px; } }
+      @media (max-width: 1599px) {
+        .campaign_2020 #header .landing-pre-header {
+          min-height: 420px; } }
+      @media (max-width: 1299px) {
+        .campaign_2020 #header .landing-pre-header {
+          min-height: 390px; } }
+      @media (max-width: 1099px) {
+        .campaign_2020 #header .landing-pre-header {
+          min-height: 335px; } }
+      @media (max-width: 799px) {
+        .campaign_2020 #header .landing-pre-header {
+          min-height: 200px; } }
+      @media (max-width: 599px) {
+        .campaign_2020 #header .landing-pre-header {
+          background: url("/wp-content/themes/lcoh-2017/images/campaign-2020/trajectory-mobile.png") no-repeat center center; } }
+      @media (max-width: 430px) {
+        .campaign_2020 #header .landing-pre-header {
+          background-position-x: -184px; } }
+      .campaign_2020 #header .landing-pre-header h1 {
+        color: #003559;
+        margin: 0;
+        font-family: "Minion Pro";
+        padding-top: 28px;
+        font-size: 24px; }
+        @media (min-width: 340px) {
+          .campaign_2020 #header .landing-pre-header h1 {
+            padding-top: 23px; } }
+        @media (min-width: 480px) {
+          .campaign_2020 #header .landing-pre-header h1 {
+            padding-top: 20px;
+            font-size: 27px; } }
+        @media (min-width: 800px) {
+          .campaign_2020 #header .landing-pre-header h1 {
+            padding-top: 50px;
+            font-size: 38px; } }
+        @media (min-width: 1100px) {
+          .campaign_2020 #header .landing-pre-header h1 {
+            font-size: 45px; } }
+        @media (min-width: 1300px) {
+          .campaign_2020 #header .landing-pre-header h1 {
+            font-size: 52px; } }
+        @media (min-width: 1600px) {
+          .campaign_2020 #header .landing-pre-header h1 {
+            padding-top: 65px; } }
+        @media (min-width: 1800px) {
+          .campaign_2020 #header .landing-pre-header h1 {
+            padding-top: 75px; } }
+        .campaign_2020 #header .landing-pre-header h1 span {
+          font-size: 18px; }
+          @media (min-width: 480px) {
+            .campaign_2020 #header .landing-pre-header h1 span {
+              font-size: 21px; } }
+          @media (min-width: 800px) {
+            .campaign_2020 #header .landing-pre-header h1 span {
+              font-size: 30px; } }
+          @media (min-width: 1100px) {
+            .campaign_2020 #header .landing-pre-header h1 span {
+              font-size: 36px; } }
+          @media (min-width: 1300px) {
+            .campaign_2020 #header .landing-pre-header h1 span {
+              font-size: 40px; } }
+    .campaign_2020 #header .campaign-banner {
+      display: block; }
+      .campaign_2020 #header .campaign-banner img {
+        max-width: 100%; }
+      .campaign_2020 #header .campaign-banner .large-img {
+        display: none; }
+        @media (min-width: 601px) {
+          .campaign_2020 #header .campaign-banner .large-img {
+            display: block; } }
+      .campaign_2020 #header .campaign-banner .small-img {
+        display: none; }
+        @media (max-width: 600px) {
+          .campaign_2020 #header .campaign-banner .small-img {
+            display: block; } }
+    .campaign_2020 #header .campaign-menu-bar {
+      background: #00518a;
+      padding: 15px 0;
+      border-bottom: 10px solid #8eb8d0;
+      height: fit-content; }
+      @media (max-width: 767px) {
+        .campaign_2020 #header .campaign-menu-bar {
+          border-bottom: 5px solid #8eb8d0; } }
+      @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        .campaign_2020 #header .campaign-menu-bar {
+          height: 96px; } }
+      .campaign_2020 #header .campaign-menu-bar .adj-mobile {
+        position: relative;
+        margin: auto !important;
+        width: 100% !important;
+        max-width: 1170px !important; }
+      .campaign_2020 #header .campaign-menu-bar #brand-logo {
+        max-width: 280px; }
+        @media (min-width: 993px) {
+          .campaign_2020 #header .campaign-menu-bar #brand-logo {
+            margin: auto; } }
+        .campaign_2020 #header .campaign-menu-bar #brand-logo img {
+          width: 100%;
+          height: auto;
+          position: relative;
+          left: -5px; }
+          @media (max-width: 480px) {
+            .campaign_2020 #header .campaign-menu-bar #brand-logo img {
+              width: 200px; } }
+      .campaign_2020 #header .campaign-menu-bar #desktop-menu {
+        top: 0;
+        width: unset;
+        padding-left: 50px;
+        padding-top: 13px; }
+        @media (max-width: 992px) {
+          .campaign_2020 #header .campaign-menu-bar #desktop-menu {
+            display: none !important; } }
+        @media (max-width: 1200px) {
+          .campaign_2020 #header .campaign-menu-bar #desktop-menu {
+            padding-left: 20px;
+            padding-top: 18px; } }
+        @media (max-width: 992px) {
+          .campaign_2020 #header .campaign-menu-bar #desktop-menu #mainlinks ul {
+            display: table;
+            margin: auto;
+            float: none; } }
+        .campaign_2020 #header .campaign-menu-bar #desktop-menu #mainlinks ul li {
+          float: left;
+          display: list-item;
+          list-style: disc;
+          color: #ffffff;
+          padding-left: 10px; }
+          .campaign_2020 #header .campaign-menu-bar #desktop-menu #mainlinks ul li:first-of-type {
+            list-style: none;
+            padding-left: 0; }
+          .campaign_2020 #header .campaign-menu-bar #desktop-menu #mainlinks ul li:nth-of-type(2) {
+            margin: 0 40px; }
+          @media (max-width: 992px) {
+            .campaign_2020 #header .campaign-menu-bar #desktop-menu #mainlinks ul li {
+              margin-left: 0;
+              padding-left: 0;
+              float: none;
+              text-align: center;
+              list-style: none; } }
+          .campaign_2020 #header .campaign-menu-bar #desktop-menu #mainlinks ul li a {
+            color: #ffffff;
+            text-transform: uppercase;
+            font-size: 18px;
+            letter-spacing: 5px;
+            position: relative;
+            padding: 0;
+            padding-bottom: 7px;
+            font-family: "myriad-pro"; }
+            @media (max-width: 992px) {
+              .campaign_2020 #header .campaign-menu-bar #desktop-menu #mainlinks ul li a {
+                text-align: center; } }
+            @media (max-width: 1200px) {
+              .campaign_2020 #header .campaign-menu-bar #desktop-menu #mainlinks ul li a {
+                font-size: 16px; } }
+            .campaign_2020 #header .campaign-menu-bar #desktop-menu #mainlinks ul li a:hover {
+              color: #bbd6e7; }
+              .campaign_2020 #header .campaign-menu-bar #desktop-menu #mainlinks ul li a:hover::after {
+                content: "";
+                width: 100%;
+                display: block;
+                position: absolute;
+                margin-top: 6px;
+                height: 2px;
+                bottom: 0;
+                background-color: #bbd6e7;
+                color: white;
+                animation: menu_link;
+                animation-duration: .5s; }
+      .campaign_2020 #header .campaign-menu-bar #mobile-menu {
+        width: 100%;
+        position: relative;
+        padding-top: 10px; }
+        @media (max-width: 992px) {
+          .campaign_2020 #header .campaign-menu-bar #mobile-menu {
+            display: block !important; } }
+        .campaign_2020 #header .campaign-menu-bar #mobile-menu #btn-menu {
+          float: right;
+          padding: 6px 12px 3px !important; }
+      .campaign_2020 #header .campaign-menu-bar #mobile-nav {
+        position: relative !important;
+        clear: both;
+        padding: 15px; }
+
+.campaign_2020.scrolled #brand-logo {
+  animation: logo_hide;
+  animation-duration: .75s; }
+  @media screen and (min-width: 768px) and (min-height: 500px) {
+    .campaign_2020.scrolled #brand-logo {
+      display: none; } }
+
+@media (max-width: 1023px) {
+  .campaign_2020.page-id-33047 #content .container .vc_custom_1602651486939 {
+    padding-left: 25px !important; } }
+@media (max-width: 767px) {
+  .campaign_2020.page-id-33047 #content .container .mobile-reverse-bottom .wpb_single_image {
+    padding: 25px 25px 0 25px;
+    margin-bottom: 15px; } }
+@media (max-width: 767px) {
+  .campaign_2020.page-id-33047 #content .container .mobile-reverse-bottom .wpb_single_image figure {
+    display: table;
+    margin: auto;
+    max-width: 400px; } }
+
+@media (max-width: 1023px) {
+  .campaign_2020.page-id-33075 #content .container .vc_custom_1602651575893 {
+    padding-left: 25px !important; } }
+.campaign_2020.page-id-33075 #content .container .our-vision-quote {
+  padding: 35px 45px 40px 50px; }
+  @media (max-width: 1199px) {
+    .campaign_2020.page-id-33075 #content .container .our-vision-quote {
+      padding: 35px 25px 35px 25px; } }
+  @media (max-width: 767px) {
+    .campaign_2020.page-id-33075 #content .container .our-vision-quote {
+      padding: 35px 25px 15px 25px; } }
+  .campaign_2020.page-id-33075 #content .container .our-vision-quote .minion {
+    font-family: "Minion Pro" !important; }
+    .campaign_2020.page-id-33075 #content .container .our-vision-quote .minion:first-of-type {
+      margin-bottom: 12px !important;
+      border-bottom: 1px solid #8eb8d0; }
+  .campaign_2020.page-id-33075 #content .container .our-vision-quote .bio {
+    margin-top: 15px; }
+    .campaign_2020.page-id-33075 #content .container .our-vision-quote .bio .col-xs-6 {
+      display: table; }
+    @media (max-width: 992px) {
+      .campaign_2020.page-id-33075 #content .container .our-vision-quote .bio img {
+        display: table;
+        margin: auto; } }
+    @media (max-width: 767px) {
+      .campaign_2020.page-id-33075 #content .container .our-vision-quote .bio img {
+        margin: 15px auto; } }
+    .campaign_2020.page-id-33075 #content .container .our-vision-quote .bio .sig {
+      font-size: 18px !important;
+      line-height: normal !important;
+      border-bottom: none;
+      position: relative;
+      left: -31px; }
+      @media (max-width: 992px) {
+        .campaign_2020.page-id-33075 #content .container .our-vision-quote .bio .sig {
+          display: table;
+          left: unset;
+          max-width: 300px;
+          margin: 10px auto; } }
+      .campaign_2020.page-id-33075 #content .container .our-vision-quote .bio .sig span {
+        font-style: italic;
+        margin-top: 6px;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: lighter; }
+@media (min-width: 769px) {
+  .campaign_2020.page-id-33075 #content .container .our-vision-email {
+    padding-top: 65px; } }
+.campaign_2020.page-id-33075 #content .container .approach-chart-md {
+  display: none; }
+  @media (max-width: 1199px) {
+    .campaign_2020.page-id-33075 #content .container .approach-chart-md {
+      display: block; } }
+  .campaign_2020.page-id-33075 #content .container .approach-chart-md table td {
+    vertical-align: top;
+    min-width: 165px;
+    padding-bottom: 0;
+    padding-left: 0; }
+    .campaign_2020.page-id-33075 #content .container .approach-chart-md table td strong {
+      color: #275073; }
+    .campaign_2020.page-id-33075 #content .container .approach-chart-md table td p {
+      margin-bottom: 20px;
+      font-size: 19px; }
+      @media (max-width: 767px) {
+        .campaign_2020.page-id-33075 #content .container .approach-chart-md table td p {
+          padding: 0 15px;
+          font-size: 18px; } }
+  @media (max-width: 459px) {
+    .campaign_2020.page-id-33075 #content .container .approach-chart-md table td.approach-img {
+      display: none; } }
+.campaign_2020.page-id-33075 #content .container .approach-chart {
+  display: none; }
+  @media (min-width: 1200px) {
+    .campaign_2020.page-id-33075 #content .container .approach-chart {
+      display: block; } }
+  .campaign_2020.page-id-33075 #content .container .approach-chart table td {
+    vertical-align: top;
+    min-width: 165px; }
+    .campaign_2020.page-id-33075 #content .container .approach-chart table td strong {
+      color: #275073; }
+    .campaign_2020.page-id-33075 #content .container .approach-chart table td p {
+      margin-bottom: 23px;
+      font-size: 19px; }
+    .campaign_2020.page-id-33075 #content .container .approach-chart table td p:nth-of-type(2) {
+      margin-bottom: 36px; }
+    .campaign_2020.page-id-33075 #content .container .approach-chart table td p:nth-of-type(4) {
+      margin-bottom: 40px; }
+    .campaign_2020.page-id-33075 #content .container .approach-chart table td p:nth-of-type(5) {
+      margin-bottom: 32px; }
+    .campaign_2020.page-id-33075 #content .container .approach-chart table td p:nth-of-type(6) {
+      margin-bottom: 47px; }
+
+.campaign_2020.page-id-33063 #content .container .vc_custom_1602302582973 {
+  padding-top: 70px !important; }
+  @media (max-width: 1199px) {
+    .campaign_2020.page-id-33063 #content .container .vc_custom_1602302582973 {
+      padding-left: 30px !important; } }
+@media (max-width: 1023px) {
+  .campaign_2020.page-id-33063 #content .container .vc_custom_1602651544951 {
+    padding-left: 25px !important; } }
+.campaign_2020.page-id-33063 #content .container .our-clincians {
+  margin-bottom: 15px; }
+  .campaign_2020.page-id-33063 #content .container .our-clincians h3 {
+    color: #ffffff;
+    background: #00518a;
+    text-align: center;
+    padding: 3px 0; }
+.campaign_2020.page-id-33063 #content .container .campaign-clinicians .row {
+  margin-bottom: 25px; }
+.campaign_2020.page-id-33063 #content .container .campaign-clinicians .clinician .bio-photo {
+  display: table;
+  margin: auto; }
+  .campaign_2020.page-id-33063 #content .container .campaign-clinicians .clinician .bio-photo img {
+    min-width: unset;
+    height: auto; }
+    @media (min-width: 1150px) {
+      .campaign_2020.page-id-33063 #content .container .campaign-clinicians .clinician .bio-photo img {
+        min-width: 220px; } }
+@media (max-width: 992px) {
+  .campaign_2020.page-id-33063 #content .container .campaign-clinicians .clinician .bio-content {
+    text-align: center;
+    margin-bottom: 35px; } }
+.campaign_2020.page-id-33063 #content .container .campaign-clinicians .clinician .bio-content p.name {
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 10px;
+  margin-bottom: 5px; }
+.campaign_2020.page-id-33063 #content .container .campaign-clinicians .clinician .bio-content p.caption {
+  font-size: 14px;
+  line-height: normal;
+  font-style: italic; }
+.campaign_2020.page-id-33063 #content .container .campaign-clinicians .campaign-2020-button {
+  float: right; }
+  @media (max-width: 992px) {
+    .campaign_2020.page-id-33063 #content .container .campaign-clinicians .campaign-2020-button {
+      float: none;
+      display: table;
+      margin: auto; } }
+@media (max-width: 767px) {
+  .campaign_2020.page-id-33063 #content .container .wpb_single_image {
+    padding: 25px 25px 0 25px;
+    margin-bottom: 15px; } }
+@media (max-width: 767px) {
+  .campaign_2020.page-id-33063 #content .container .wpb_single_image figure {
+    display: table;
+    margin: auto;
+    max-width: 400px; } }
+.campaign_2020.page-id-33063 #content .container .formula-bttn {
+  margin-bottom: 35px; }
+
+.campaign_2020.page-id-33014 #content .container h2 {
+  font-size: 42px;
+  font-weight: normal;
+  font-family: "Minion Pro"; }
+  @media (max-width: 991px) {
+    .campaign_2020.page-id-33014 #content .container h2 {
+      font-size: 34px; } }
+  @media (max-width: 480px) {
+    .campaign_2020.page-id-33014 #content .container h2 {
+      font-size: 26px; } }
+@media (max-width: 480px) {
+  .campaign_2020.page-id-33014 #content .container h3 {
+    font-size: 20px; } }
+.campaign_2020.page-id-33014 #content .container .vc_custom_1602657070996 img {
+  max-height: 390px;
+  width: auto; }
+.campaign_2020.page-id-33014 #content .container .vc_custom_1602657325016 img {
+  max-height: 396px;
+  width: auto; }
+.campaign_2020.page-id-33014 #content .container .campaign-2020-button {
+  margin-left: 115px; }
+  @media (max-width: 992px) {
+    .campaign_2020.page-id-33014 #content .container .campaign-2020-button {
+      display: table;
+      margin: auto; } }
+.campaign_2020.page-id-33014 .wpb_text_column {
+  margin-bottom: 25px; }
+@media (max-width: 991px) {
+  .campaign_2020.page-id-33014 .wpb_single_image figure {
+    display: table;
+    margin: auto; } }
+@media (max-width: 767px) {
+  .campaign_2020.page-id-33014 .wpb_single_image figure {
+    max-width: 85%; } }
+.campaign_2020.page-id-33014 .rotate-wrap {
+  position: relative; }
+  @media (max-width: 767px) {
+    .campaign_2020.page-id-33014 .rotate-wrap {
+      max-width: 85%;
+      margin: auto;
+      display: table; } }
+  .campaign_2020.page-id-33014 .rotate-wrap img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-height: 387px;
+    width: 100%; }
+  .campaign_2020.page-id-33014 .rotate-wrap .r-0 {
+    position: relative !important;
+    opacity: 1; }
+  .campaign_2020.page-id-33014 .rotate-wrap .r-1 {
+    opacity: 0; }
+  .campaign_2020.page-id-33014 .rotate-wrap .r-2 {
+    opacity: 0; }
+  .campaign_2020.page-id-33014 .rotate-wrap .r-3 {
+    opacity: 0; }
+  .campaign_2020.page-id-33014 .rotate-wrap .r-4 {
+    opacity: 0; }
+  .campaign_2020.page-id-33014 .rotate-wrap .r-5 {
+    opacity: 0; }
+@media (min-width: 768px) {
+  .campaign_2020.page-id-33014 .zero-right-padding-dt .vc_column-inner {
+    padding-right: 0; } }
+@media (min-width: 768px) {
+  .campaign_2020.page-id-33014 .vc_column-inner.vc_custom_1602620128976 {
+    margin-bottom: 15px !important; } }
+
+.campaign_2020 #campaign-footer {
+  background: #00518a;
+  width: 100%;
+  padding: 80px 0;
+  border-top: 10px solid #8eb8d0; }
+  @media (max-width: 767px) {
+    .campaign_2020 #campaign-footer {
+      padding: 40px 0;
+      border-top: 5px solid #8eb8d0; } }
+  .campaign_2020 #campaign-footer a {
+    color: white !important; }
+  .campaign_2020 #campaign-footer .container {
+    margin: 0;
+    padding: 0; }
+  .campaign_2020 #campaign-footer .left-footer-wrap {
+    float: left;
+    width: 25%; }
+    @media (max-width: 860px) {
+      .campaign_2020 #campaign-footer .left-footer-wrap {
+        width: 50%;
+        margin-bottom: 40px; } }
+    @media (max-width: 767px) {
+      .campaign_2020 #campaign-footer .left-footer-wrap {
+        width: 50%;
+        margin-bottom: 0px; } }
+    .campaign_2020 #campaign-footer .left-footer-wrap img {
+      width: 100%;
+      min-width: 250px;
+      position: relative;
+      left: -15px; }
+  .campaign_2020 #campaign-footer .right-footer-wrap {
+    padding-left: 15px;
+    position: relative;
+    top: -15px;
+    float: left; }
+    @media (max-width: 975px) {
+      .campaign_2020 #campaign-footer .right-footer-wrap {
+        padding-left: 45px; } }
+    @media (max-width: 767px) {
+      .campaign_2020 #campaign-footer .right-footer-wrap {
+        padding: 0 15px;
+        top: 0;
+        margin: 40px auto 0 auto;
+        float: none;
+        display: table; } }
+    .campaign_2020 #campaign-footer .right-footer-wrap .sec-one {
+      font-size: 40px;
+      color: white !important;
+      font-family: "Minion Pro"; }
+      @media (max-width: 1199px) {
+        .campaign_2020 #campaign-footer .right-footer-wrap .sec-one {
+          font-size: 32px; } }
+      @media (max-width: 992px) {
+        .campaign_2020 #campaign-footer .right-footer-wrap .sec-one {
+          font-size: 28px; } }
+      @media (max-width: 762px) {
+        .campaign_2020 #campaign-footer .right-footer-wrap .sec-one {
+          font-size: 20px; } }
+    .campaign_2020 #campaign-footer .right-footer-wrap .sec-two {
+      font-size: 28px;
+      color: white !important;
+      margin-top: 15px; }
+      .campaign_2020 #campaign-footer .right-footer-wrap .sec-two a {
+        color: white !important; }
+      @media (max-width: 1199px) {
+        .campaign_2020 #campaign-footer .right-footer-wrap .sec-two {
+          font-size: 24px; } }
+      @media (max-width: 992px) {
+        .campaign_2020 #campaign-footer .right-footer-wrap .sec-two {
+          font-size: 22px; } }
+      @media (max-width: 762px) {
+        .campaign_2020 #campaign-footer .right-footer-wrap .sec-two {
+          font-size: 16px; } }
+    .campaign_2020 #campaign-footer .right-footer-wrap .sec-three {
+      font-size: 24px;
+      color: white !important;
+      margin-top: 10px; }
+      @media (max-width: 1199px) {
+        .campaign_2020 #campaign-footer .right-footer-wrap .sec-three {
+          font-size: 21px; } }
+      @media (max-width: 992px) {
+        .campaign_2020 #campaign-footer .right-footer-wrap .sec-three {
+          font-size: 20px; } }
+      @media (max-width: 762px) {
+        .campaign_2020 #campaign-footer .right-footer-wrap .sec-three {
+          font-size: 16px; } }
+
+/*# sourceMappingURL=campaign_2020.css.map */

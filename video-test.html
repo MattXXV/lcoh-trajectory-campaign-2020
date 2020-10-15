@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .video-modal {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.9);
+            top: 0;
+            left: 0;
+            display: none;
+        }
+
+        .banner-video-wrap {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 967px;
+            width: 100%;
+            margin: auto;
+        }
+
+        video.lcoh-banner-video {
+            max-width: 967px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="video-modal">
+    <div class="banner-video-wrap">
+        <video class="lcoh-banner-video" controls autoplay="false" preload="auto">
+            <source src="video/LindnerCOH_StrongestVoice_30_v4.mp4" type="video/mp4">
+        </video>
+
+    </div>
+</div>
+
+</body>
+</html>

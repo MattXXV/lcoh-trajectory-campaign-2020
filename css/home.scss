@@ -1,0 +1,404 @@
+/* CSS Document */
+
+/* Big Homepage Banner Area 
+   Important to keep the word "HOPE" Contained in the viewport, while also covering the space */
+#home-banner {
+	background-image:url('../images/hope-header-mobile.jpg');
+	background-size:cover;
+	background-position:top center;
+	height:200px;
+	position:relative;
+	
+	@include breakpoint(small) {
+		background-image:url('../images/hope-header.jpg');
+		height:350px;
+	}
+	
+	@include breakpoint(medium) {
+		height:450px;
+	}
+	
+	@include breakpoint(large) {
+		height:600px;
+	}
+	
+	@include breakpoint(huge) {
+		height:740px;
+	}
+}
+
+.home:not(.scrolled) #header {
+	background:none;
+	border-bottom: none;
+}
+
+#home-banner .banner-text {
+	position:absolute;
+	bottom:10px;
+	padding-bottom:20px;
+	border-bottom:1px solid $lightblue;
+	width:100%;
+	text-transform: uppercase;
+	color:$white;
+}
+
+#home-banner .banner-text h2 {
+	font-size:24px;
+	color:$red;
+	margin-top:0; 
+	
+	@include breakpoint(small) {
+		font-size:36px;
+	}
+}
+
+#home-banner .banner-text h2 a, #home-banner .banner-text h2 a:hover,
+#home-banner .banner-text h2 a:focus, #home-banner .banner-text h2 a:active {
+	color:$red;
+	text-decoration: none;
+}
+
+#home-banner .banner-text h3 {
+	font-size:24px;
+	font-weight: bold;
+	display: none;
+	@include breakpoint(medium) {
+		display: block;
+	}
+}
+
+#home-banner .banner-text p {
+	display: none;
+	@include breakpoint(medium) {
+		display: block;
+	}
+}
+
+/** Text Content Region **/
+.home section#content {
+	padding-top:0;
+}
+
+.home section#content h2 {
+	font-weight: bold;
+}
+
+.home-can-help h3 {
+	margin-top:0;
+}
+
+/** Top of Mind **/
+.home-top-of-mind h2 {
+	font-size:2em!important;
+	font-family: 'Playfair Display',serif;
+	margin-bottom:0;
+	color:$royalblue;
+	font-size: 32px;
+	line-height: 38px;
+}
+
+.home-top-of-mind h3 {
+	margin-top:10px;
+	color:$charcoal!important;
+	font-weight: 400;
+	font-family: 'Raleway',sans-serif;
+}
+
+.top-of-mind-feature {
+	height:350px;
+    background-position: center center;
+    background-size: cover;
+	position:relative;
+	width:100%;
+	max-width:350px;
+	margin:30px auto;
+	
+	@include breakpoint(medium) {
+		height:250px;
+		width:250px;
+	}
+	@include breakpoint(large) {
+		height:300px;
+		width:300px;
+	}
+	@include breakpoint(huge) {
+		height:350px;
+		width:350px;
+	}
+}
+
+.top-of-mind-feature a, .top-of-mind-feature a:hover,
+.top-of-mind-feature a:active, .top-of-mind-feature a:focus {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding:20px 30px;
+	color:$white !important;
+	font-weight: bold;
+	text-decoration: none;
+	background:rgba(0,76,151,.8);
+	font-size:18px;
+}
+.feature-row {
+	max-width:1200px;
+	margin:30px auto;
+	.lcoh-feature {
+		h2 {
+			font-size:1.5em;
+			line-height: 1.1em;
+			color:$charcoal;
+			font-weight: 700;
+			font-family: 'Raleway',sans-serif;
+			margin-bottom:15px;
+		}
+		.content {
+			font-size:16px;
+			line-height: 24px;
+			font-weight: 400;
+			font-family: 'Raleway',sans-serif;
+		}
+		a {
+			color:$royalblue!important;
+			font-weight: 700;
+			font-size: 16px;
+			line-height: 24px;
+			font-family: 'Raleway',sans-serif;
+		}
+		img {
+			@media (max-width: 768px){
+				width:100%;	
+			}
+		}
+	}
+	.wpb_column {
+		padding-bottom: 30px;
+	}
+}
+.wpb_revslider_element {
+	.rev-btn {
+		border-radius:6px!important;
+		background-color:rgba(0,0,0, 0.6)!important;
+		border:1px solid #fff!important;
+		transition: all 0.4s ease-in-out;
+		&:hover {
+			background-color:#fff!important;
+			border:1px solid #000!important;	
+		}
+	}
+	.tp-caption {
+		@media (max-width: 768px){
+			top:-90px;
+			font-size:18px!important;
+			span {
+				font-size:18px!important;	
+			}
+		}
+	}
+	.tp-caption.rev-btn {
+		@media (max-width: 768px){
+			top:-20px;
+			font-size:13px!important;
+			display:table;
+			margin:0 auto;
+			min-width:10px!important;
+			white-space: nowrap;
+			i {
+				display:inline;
+				margin-left: 0;
+				margin-top: 3px;
+			}
+		}
+	}
+	
+}
+/** Masonry Menus **/
+.vc_row-fluid .lcoh_masonry {
+	margin-left:-15px;
+	margin-right:-15px;
+	margin-bottom:30px;
+}
+
+.lcoh_masonry_item {
+	display: block; 
+	height:260px;
+	width:100%;
+	background-size:cover;
+	background-position:top center;
+	position:relative;
+	border-bottom:10px solid $royalblue;
+	text-decoration: none !important;
+	color:$white !important;
+	font-size:24px;
+	line-height:120%;
+	font-weight:bold;
+	@include transition (all, 0.5s, ease);
+	@include breakpoint(medium) {
+		height:300px;
+	}
+}
+
+.lcoh_masonry_item.secondary {
+	height:150px;
+	@include breakpoint(medium) {
+		height:200px;
+	}
+}
+
+.lcoh_masonry_item:hover {
+	opacity: .9;
+}
+
+.lcoh_masonry_item span {
+	display: block;
+	position:absolute;
+	bottom:20px;
+	left:30px;
+	right:20px;
+}
+
+.lcoh_masonry_col {
+	padding:1px;
+}
+
+/** Virtual Tour Button on Homepage **/
+.vc_row.btntour {
+	background:$royalblue;
+	color:$white;
+	cursor:pointer;
+	padding:20px;
+}
+
+.vc_row.btntour .wpb_content_element {
+	margin-bottom:0;
+}
+
+.vc_row.btntour .btntour-left p {
+	text-align:center;
+	@include breakpoint(medium) {
+		text-align:right;
+	}
+}
+
+.vc_row.btntour .btntour-right {
+	background:url('../images/tour-building.jpg');
+	background-size: cover;
+	background-position: center center;
+	display:none;
+	@include breakpoint(medium) {
+		display: block;
+	}
+}
+
+/** Modal **/
+.modal-content {
+	border-radius: 0;
+}
+
+.modal-dialog {
+	margin-top:40px;
+	@include breakpoint(medium) {
+		margin-top:80px;
+	}
+}
+
+#tourmodal .modal-dialog {
+	@include breakpoint(large) {
+		width:800px;
+	}
+}
+
+/** ----------------------------------------------------------- **/
+// Home 2018 Template
+
+.page-template-page_home_2018 {
+    section#content {
+        margin-top:60px;
+        /* border-top:10px solid #b7b7b7; */
+        @include breakpoint('medium') {
+            margin-top:70px;
+        }
+        @include breakpoint('large') {
+            margin-top:70px;
+        }
+        @include breakpoint('huge') {
+            margin-top:80px;
+        }
+    }
+    
+    .vc_row.home-header {
+        .vc_column-inner {
+            padding-top:0 !important;
+        }
+    }
+    
+    .lcoh-home-head {
+        h2 {
+            
+        }
+        h3 {
+            margin-top:10px;
+        }
+        a, a:visited {
+            color:$black !important;
+            font-size:22px;
+            @include breakpoint('medium') {
+                font-size:28px;
+            }
+        }
+    }
+    .wpb_revslider_element {
+	    margin-bottom: 0px;
+	    border-bottom: 1px solid #fff;
+    }
+    .section2 {
+	    h2 {
+		    font-family: 'Playfair Display',serif;
+		    font-size: 40px !important;
+		    line-height: 48px !important;
+		    color: #024883;
+		    margin: 0px 0px 12px;
+	    }
+	    h3 {
+		    font-family: 'Raleway',sans-serif;
+		    font-weight: bold;
+		    color: #333 !important;
+		    margin-bottom: 30px;
+	    }
+	    p {
+		    font-family: 'Raleway',sans-serif;
+		    font-size: 16px !important;
+		    line-height: 24px !important;
+	    }
+    }
+}
+.accredited {
+	font-family: 'Raleway',sans-serif;
+	color: #333;
+	font-size: 16px;
+	line-height: 24px;
+	h3, h4 {
+		font-family: 'Raleway',sans-serif;
+		font-size: 24px;
+		color: #333;
+	}
+}
+.treatment-phone-numbers {
+	border-top:1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding:20px 10px;
+	margin:20px auto;
+	font-family: 'Raleway',sans-serif;
+	font-size:1.375em;
+	font-weight: 300;
+	color:$royalblue;
+	a {
+		font-weight: bold;
+		color:$royalblue!important;
+		text-decoration: none;
+		font-weight: 700;
+		&:hover {
+			color:$royalbluehover!important;
+		}
+	}
+}

@@ -1,0 +1,134 @@
+//Campaign 2020 Home page
+.campaign_2020.page-id-33014 {
+ #content {
+   .container {
+     h2 {
+       font-size: 42px;
+       font-weight: normal;
+       font-family: "Minion Pro";
+       @media(max-width: 991px) {
+         font-size: 34px;
+       }
+
+       @media(max-width: 480px) {
+         font-size: 26px;
+       }
+     }
+
+     h3 {
+       @media(max-width: 480px) {
+         font-size: 20px;
+       }
+     }
+
+     // changing formula right image
+     .vc_custom_1602657070996 {
+       img {
+         max-height: 390px;
+         width: auto;
+         @media(min-width: 768px) {
+           //clip-path: polygon(0 0, 98% 0, 98% 100%, 0% 100%) !important;
+         }
+       }
+     }
+
+     // our game changing approach image
+     .vc_custom_1602657325016 {
+       img {
+         max-height: 396px;
+         width: auto;
+
+         @media(min-width: 768px) {
+           //clip-path: polygon(0 0, 98% 0, 98% 100%, 0% 100%) !important;
+         }
+       }
+     }
+
+     .campaign-2020-button {
+       margin-left: 115px;
+       @media(max-width: 992px) {
+         display: table;
+         margin: auto;
+       }
+     }
+   }
+ }
+
+
+  .wpb_text_column {
+    margin-bottom: 25px;
+  }
+
+  .wpb_single_image {
+    figure {
+      @media(max-width: 991px) {
+        display: table;
+        margin: auto;
+      }
+
+      @media(max-width: 767px) {
+        max-width: 85%;
+      }
+    }
+  }
+
+
+  .rotate-wrap {
+    position: relative;
+
+    @media(max-width: 767px) {
+      max-width: 85%;
+      margin: auto;
+      display: table;
+    }
+    img {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      max-height: 387px;
+      width: 100%;
+    }
+
+    .r-0 {
+      position: relative !important;
+      opacity: 1;
+    }
+
+    .r-1 {
+      opacity: 0;
+    }
+
+    .r-2 {
+      opacity: 0;
+    }
+
+    .r-3 {
+      opacity: 0;
+    }
+
+    .r-4 {
+      opacity: 0;
+    }
+
+    .r-5 {
+      opacity: 0;
+    }
+  }
+
+  .zero-right-padding-dt {
+
+    .vc_column-inner {
+      @media(min-width: 768px) {
+        padding-right: 0;
+      }
+    }
+
+  }
+
+  .vc_column-inner.vc_custom_1602620128976 {
+    @media(min-width: 768px) {
+      margin-bottom: 15px !important;
+    }
+  }
+}

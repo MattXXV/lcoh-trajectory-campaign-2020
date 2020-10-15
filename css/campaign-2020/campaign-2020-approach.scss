@@ -1,0 +1,163 @@
+// our approach
+.campaign_2020.page-id-33075 {
+ #content {
+   .container {
+
+     .vc_custom_1602651575893 {
+       @media(max-width: 1023px) {
+         padding-left: 25px !important;
+       }
+     }
+     .our-vision-quote {
+       padding: 35px 45px 40px 50px;
+
+       @media(max-width: 1199px) {
+         padding: 35px 25px 35px 25px;
+       }
+
+       @media(max-width: 767px) {
+         padding: 35px 25px 15px 25px;
+       }
+
+       .minion {
+         font-family: "Minion Pro" !important;
+
+         &:first-of-type {
+           margin-bottom: 12px !important;
+           border-bottom: 1px solid $light_blue_2020;
+         }
+       }
+
+       .bio {
+         margin-top: 15px;
+         .col-xs-6 {
+           display: table;
+         }
+
+         img {
+           @media(max-width: 992px) {
+             display: table;
+             margin: auto;
+           }
+
+           @media(max-width: 767px) {
+             margin: 15px auto;
+           }
+         }
+
+         .sig {
+           font-size: 18px !important;
+           line-height: normal !important;
+           border-bottom: none;
+
+           position: relative;
+           left: -31px;
+
+           @media(max-width: 992px) {
+             display: table;
+             left: unset;
+             max-width: 300px;
+             margin: 10px auto;
+           }
+
+           span {
+             font-style: italic;
+             margin-top: 6px;
+             display: inline-block;
+             font-size: 16px;
+             font-weight: lighter;
+           }
+         }
+       }
+     }
+
+     .our-vision-email {
+       @media(min-width: 769px) {
+         padding-top: 65px;
+       }
+
+     }
+
+     .approach-chart-md {
+       display: none;
+
+       @media(max-width: 1199px) {
+         display: block;
+       }
+
+       table {
+         td {
+           vertical-align: top;
+           min-width: 165px;
+           padding-bottom: 0;
+           padding-left: 0;
+
+           strong {
+             color: #275073;
+           }
+
+           p {
+             margin-bottom: 20px;
+             font-size: 19px;
+             @media(max-width: 767px) {
+               padding: 0 15px;
+               font-size: 18px;
+             }
+
+
+
+           }
+
+         }
+
+         td.approach-img {
+           @media(max-width: 459px) {
+             display: none;
+           }
+         }
+       }
+     }
+
+     .approach-chart {
+       display: none;
+
+       @media(min-width: 1200px) {
+         display: block;
+       }
+
+       table {
+         td {
+           vertical-align: top;
+           min-width: 165px;
+
+           strong {
+             color: #275073;
+           }
+
+           p {
+             margin-bottom: 23px;
+             font-size: 19px;
+           }
+
+           p:nth-of-type(2) {
+             margin-bottom: 36px;
+           }
+           p:nth-of-type(4) {
+             margin-bottom: 40px;
+           }
+           //
+           p:nth-of-type(5) {
+             margin-bottom: 32px;
+           }
+           //
+           p:nth-of-type(6) {
+             margin-bottom: 47px;
+           }
+         }
+       }
+     }
+   }
+ }
+
+
+}

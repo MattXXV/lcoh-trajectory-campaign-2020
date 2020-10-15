@@ -1,0 +1,36 @@
+//our visions
+.campaign_2020.page-id-33047 {
+
+  #content {
+    .container {
+      .vc_custom_1602651486939 {
+        //padding-top: 70px !important;
+        @media(max-width: 1023px) {
+          padding-left: 25px !important;
+        }
+      }
+
+      .mobile-reverse-bottom {
+        .wpb_single_image {
+          @media(max-width: 767px) {
+            padding: 25px 25px 0 25px;
+            margin-bottom: 15px;
+          }
+          figure {
+            @media(max-width: 767px) {
+              display: table;
+              margin: auto;
+              max-width: 400px;
+            }
+          }
+        }
+      }
+
+    }
+  }
+
+
+
+}
+
+

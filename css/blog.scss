@@ -1,0 +1,83 @@
+/* CSS Document */
+h1.entry-title a {
+	color:#282b58 !important;
+	text-decoration: none!important;
+}
+
+article.excerpt-container {
+	border:1px solid $mediumgray;
+	background:$lightwarmgray;
+	margin-bottom:30px;
+}
+
+article.excerpt-container .row {
+	display: flex;
+}
+
+article.excerpt-container .row .imagecol {
+	display: flex;
+}
+
+article.excerpt-container .row .textcol {
+	display: flex;
+	flex-flow: column nowrap;
+	padding-left:0;
+}
+
+article.excerpt-container header {
+	color:$white;
+	background:$blog_blue;
+	display: block;
+	width:100%;
+}
+
+article.excerpt-container header h2 {
+	margin:0;
+}
+
+article.excerpt-container header h2 a {
+	color:$white !important;
+	text-decoration: none !important;
+	display: block;
+	padding:20px 30px;
+	@include breakpoint(large) {
+		padding:30px 40px;
+	}
+}
+
+article.excerpt-container .entry-summary {
+	padding:20px 30px;
+	@include breakpoint(large) {
+		padding:30px 40px;
+	}
+	width:100%;
+}
+
+article.excerpt-container .entry-summary p {
+	margin:0;
+}
+
+.nav-previous, .nav-next {
+	display: inline-block;
+	width:100%;
+	text-align: center;
+	margin-top:20px;
+	
+	@include breakpoint(medium) {
+		width:auto;
+		max-width:250px;
+		text-align: left;
+		float:left;
+	}
+}
+
+.nav-next {
+	@include breakpoint(medium) {
+		text-align: right;
+		float:right;
+	}
+}
+
+.entry-meta {
+	margin-bottom:20px;
+}

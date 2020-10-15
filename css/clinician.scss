@@ -1,0 +1,63 @@
+/* CSS Document */
+#clinicianhead {
+	padding-top:80px;
+	padding-bottom:20px;
+	color:#a0aee4;
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#101631+0,19226a+51 */
+background: #101631; /* Old browsers */
+background: -moz-linear-gradient(top, #101631 0%, #19226a 51%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #101631 0%,#19226a 51%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #101631 0%,#19226a 51%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101631', endColorstr='#19226a',GradientType=0 ); /* IE6-9 */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101631', endColorstr='#19226a',GradientType=0 ); /* IE6-9 */
+
+	@include breakpoint(medium) {
+		padding-top:100px;
+		padding-bottom:30px;
+	}
+	@include breakpoint(huge) {
+		padding-top:120px;
+	}
+}
+
+#clinicianhead img {
+	width:120px;
+	height:auto;
+	max-width:100%;
+}
+
+#clinicianhead h1.entry-title {
+	color:$white;
+	text-transform: uppercase;
+	font-size:30px;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.clinician_thumbnail {
+	width:100px;
+	height:auto;
+	max-width:100%;
+}
+
+
+.clinician-mini {
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom:1px solid $lightgray;
+}
+
+.clinicianphotocol, .cliniciantextcol {
+	@include breakpoint(small) {
+		
+	}
+}
+
+.clinician-container .sidebar {
+	@include breakpoint(medium) {
+		padding-left:30px;
+	}
+	@include breakpoint(huge) {
+		padding-left:40px;
+	}
+}

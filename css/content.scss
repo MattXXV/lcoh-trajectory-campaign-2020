@@ -1,0 +1,204 @@
+/* CSS Document */
+/** General Content Styles **/
+
+section#content {
+	padding-top:0;
+	margin-bottom:20px;
+	margin-top:20px;
+	@include breakpoint(large) {
+		margin-bottom:30px;
+		margin-top:30px;
+	}
+	@include breakpoint(huge) {
+		margin-top:40px;
+	}
+	
+}
+
+.entry-content .aligncenter {
+	display: block;
+	margin: 0 auto 20px;
+}
+
+.entry-content .alignleft {
+	float:left;
+	margin:0 20px 20px 0;
+}
+
+.entry-content .alignright {
+	float:right;
+	margin:0 0 20px 20px;
+}
+
+.entry-content hr {
+	clear:both !important;
+}
+
+.entry-content img {
+	max-width:100%;
+	height:auto;
+}
+
+#content ol.spaced li, #content ul.spaced li {
+	margin-bottom:10px;
+}
+
+section#content.spaced {
+	padding-top:60px;
+}
+
+.page-template-page_section section#content {
+	padding-top:0;
+}
+
+section#content a, section#content a:visited, section#content a:hover, section#content a:active, section#content a:focus {
+	color:$red;
+}
+
+section#content a.subtle, section#content a.subtle:visited, section#content a.subtle:hover, section#content a.subtle:active, section#content a.subtle:focus {
+	color:$black;
+	text-decoration: none;
+}
+
+section#content h3 {
+	color:$royalblue;
+	fon-size:18px;
+}
+
+section#content h2 {
+	font-weight: bold;
+	font-size:20px;
+}
+
+.home-phone-col {
+	font-weight:bold;
+	text-align: center;
+	@include breakpoint(medium) {
+		text-align: left;
+	}
+}
+
+.home-phone-col-left {
+	@include breakpoint(medium) {
+		text-align: right;
+	}
+}
+
+.breadcrumb {
+	background:transparent;
+}
+
+.entry-content h1 {
+	color:$royalblue;
+	font-size:24px;
+	@include breakpoint(medium) {
+		font-size:36px;
+	}
+}
+
+.entry-content h1:first-child {
+	margin-top:0;
+}
+
+.entry-content h2 {
+	margin-bottom:4px;
+}
+
+.entry-content h3 {
+	margin-bottom:4px;
+}
+
+.entry-content h4 {
+	margin-bottom:4px;
+	font-weight:bold;
+}
+
+/** Accordions **/
+
+.vc_tta-panel-heading,
+.vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-heading,
+.vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel.vc_active .vc_tta-panel-heading {
+	background:$charcoal !important;
+	color:$white;
+	border-radius: 0 !important;
+}
+
+.vc_tta-panel,
+.vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel {
+	border:none;
+}
+
+.vc_tta-panel-body,
+.vc_tta.vc_general .vc_tta-panel-body {
+	border:1px solid #b7b7b7 !important;
+}
+
+section#content .vc_tta-panel-heading a {
+	color:$white !important;
+}
+
+/** Video Lists **/
+.video-list-container ul {
+	padding-left:30px;
+}
+
+.video-list-container ul li {
+	margin-bottom:10px;
+}
+
+article.video iframe {
+	display: block;
+	margin:0 auto;
+	max-width:100%;
+	height:300px;
+	@include breakpoint(medium) {
+		height:400px;
+	}
+	@include breakpoint(large) {
+		height:480px;
+	}
+}
+
+.btn-lcoh {
+	background:$royalblue;
+	color:$white !important;
+	display: inline-block;
+	margin:3px 10px;
+}
+
+.btn-lcoh.btn-red {
+	background:$red;
+}
+
+.page-id-26213 .btn-lcoh {
+	min-width:300px;
+}
+
+.btn-lcoh.center {
+}
+
+#tour .metaslider {
+	margin:0 auto;
+}
+
+/** Donate Page **/
+.vc_row.lcoh-fund {
+	border-bottom:1px solid #eee;
+	margin-bottom:10px;
+}
+
+.vc_row.lcoh-fund h4 {
+	font-size:16px;
+	color:$warmblue;
+}
+
+.vc_row.lcoh-fund .wpb_content_element {
+	margin-bottom:10px;
+}
+
+body.page-id-28010 {
+	background:url('../images/landing-bg.jpg');
+	background-size:cover;
+	background-position:top center;
+	background-repeat:no-repeat;
+}

@@ -1,0 +1,318 @@
+$blue_2020: rgb(0, 81, 138);
+$dark_blue_2020: rgb(0, 53, 89);
+$gray_2020: rgb(97, 99, 104);
+$light_blue_2020: #8eb8d0;
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+@font-face {
+  font-family: 'Minion Pro';
+  src: url('campaign-2020/fonts/MinionPro-Regular.otf') format("otf")
+}
+
+@font-face {
+  font-family: 'Myriad Pro Light';
+  src: url('campaign-2020/fonts/MyriadPro-It.otf') format("otf")
+}
+
+.campaign_2020 {
+
+  #wrapper {
+    clear: both;
+  }
+
+  section#content.spaced {
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+
+  #content {
+    margin-top: 0;
+    .container {
+      max-width: 1400px;
+
+      @media(max-width: 1200px) {
+        width: 100%;
+      }
+
+      @media(max-width: 767px) {
+        margin-bottom: 0;
+      }
+
+
+    }
+
+    .wpb_text_column {
+      @media(max-width: 767px) {
+        padding: 0 10px;
+      }
+    }
+
+    .wpb_single_image {
+      figure {
+        @media(max-width: 991px) {
+          display: table;
+          margin: auto;
+        }
+
+        @media(max-width: 767px) {
+          max-width: 85%;
+        }
+
+        @media(max-width: 540px) {
+          max-width: 95%;
+        }
+      }
+    }
+
+    a {
+      text-decoration: none !important;
+    }
+
+    p {
+      font-size: 21px;
+      color: $gray_2020;
+      font-family: "Myriad Pro Light";
+      margin-bottom: 30px;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+
+      @media(max-width: 991px) {
+        font-size: 19px;
+        margin-bottom: 20px;
+      }
+
+      @media(max-width: 767px) {
+        font-size: 18px;
+
+      }
+
+      @media(max-width: 480px) {
+        //font-size: 16px;
+      }
+    }
+
+    .campaign-2020-button {
+      background: #003559;
+      text-transform: uppercase;
+      color: white;
+      letter-spacing: 2px;
+      font-size: 18px;
+      padding: 2px 30px 0 30px;
+      text-decoration: none !important;
+
+      &:hover {
+        background: $blue_2020;
+        color: white
+      }
+    }
+
+
+  h3 {
+    font-size: 26px;
+    font-weight: bold;
+    @media(max-width: 991px) {
+      font-size: 22px;
+    }
+    @media(max-width: 480px) {
+      font-size: 20px;
+    }
+  }
+
+    .gray {
+      color: $gray_2020 !important;
+    }
+
+    .blue {
+      color: $blue_2020 !important;
+    }
+
+    .white {
+      color: #ffffff !important;
+    }
+
+    .wpb_text_column.white p {
+      color: #ffffff !important;
+    }
+
+  }
+
+  .gform_button.button {
+    background: $dark_blue_2020;
+    color: white;
+
+    &:hover {
+      background: $blue_2020
+    }
+  }
+}
+
+.scrolled.campaign_2020 #header {
+  .campaign-menu-bar {
+    #brand-logo {
+      //display: none;
+    }
+  }
+}
+
+.page-id-33047, .page-id-33063, .page-id-33075, .page-id-33129 {
+  #content {
+    .container {
+
+      .title-block {
+        //margin-top: 35px;
+
+        h1.small {
+          font-size: 20px;
+          color: #616368;
+          font-weight: 600;
+          display: table;
+          padding-top: 35px;
+          font-family: 'Myriad Pro';
+
+          &::after {
+            content: "";
+            height: 1px;
+            width: 100%;
+            position: relative;
+            display: block;
+            top: 5px;
+            background-color: #8eb8d0;
+          }
+        }
+        h2 {
+          margin-top: 10px;
+          font-size: 30px;
+          font-weight: 400;
+          font-family: "myriad-pro";
+
+          @media(max-width:767px) {
+            font-size: 24px;
+          }
+        }
+      }
+
+      .landing-pre-header {
+        display: none;
+      }
+
+      .campaign-white-bttn {
+        text-decoration: none;
+
+        .campaign-button-white {
+          background: white;
+          padding: 5px 14px;
+          color:  #003559;
+          border: 1px solid $light_blue_2020;
+          display: table;
+          margin: auto;
+          margin-top: 10px;
+          width: 100%;
+
+          &:hover {
+            opacity: .8;
+          }
+        }
+      }
+
+      .mobile-content {
+        display: none;
+        @media(max-width: 767px) {
+          display: block;
+        }
+      }
+
+      .desktop-content {
+        @media(max-width: 767px) {
+          display: none;
+        }
+      }
+
+      .our-vision-quote {
+        padding: 0 45px 40px 50px;
+
+        @media(max-width: 1199px) {
+          padding: 0 25px 35px 25px;
+        }
+
+        p {
+          color: #ffffff;
+        }
+
+        .minion {
+          font-family: "Minion Pro";
+          margin-bottom: 10px;
+
+          @media(min-width: 993px) {
+            padding-right: 17px;
+          }
+        }
+
+        p:nth-of-type(1) {
+          font-size: 28px;
+          line-height: 1.6;
+          padding-bottom: 7px;
+
+          @media(max-width: 767px) {
+            font-size: 22px;
+            padding-bottom: 0;
+          }
+        }
+
+        .sig {
+          font-size: 18px;
+          line-height: normal;
+          border-bottom: none;
+          position: relative;
+
+          @media(max-width: 767px) {
+            font-size: 16px;
+          }
+
+          @media(max-width: 992px) {
+            display: table;
+            left: unset;
+            max-width: 300px;
+            margin: 10px auto;
+          }
+
+          span {
+            font-style: italic;
+            margin-top: 6px;
+            display: inline-block;
+            font-size: 16px;
+            font-weight: lighter;
+          }
+        }
+
+
+      }
+
+      .our-vision-email {
+        padding: 0 25px;
+
+        .email-wrap {
+          text-align: center;
+          padding: 20px;
+          background: $blue_2020;
+          max-width: 300px;
+          margin: auto;
+          display: table;
+
+          p {
+            font-size: 16px;
+          }
+
+          p:first-of-type {
+            font-size: 22px;
+            margin-bottom: 10px;
+          }
+
+        }
+      }
+
+    }
+  }
+}

@@ -1,0 +1,82 @@
+/* CSS Document */
+#footer {
+	background:$charcoal;
+	color:$white;
+	padding:20px;
+}
+
+#footer a {
+	color:$white;
+	text-decoration: none;
+}
+
+#menu-social {
+	text-align: center;
+	padding-left:0;
+	margin-left:0;
+	@include breakpoint(large) {
+		text-align:right;
+	}
+}
+
+#menu-social li {
+	list-style:none;
+	display: inline-block;
+	font-size:30px;
+	padding:0 10px;
+	@include breakpoint(large) {
+		/*font-size:20px; */
+		padding: 0 5px;
+		margin-top:-12px;
+	}
+}
+
+#legallinks {
+	text-align: center;
+	padding-left:0;
+	margin-left:0;
+	@include breakpoint(large) {
+		text-align:left;
+	}
+}
+
+#legallinks ul {
+	padding-left:0;
+	margin-left:0;
+}
+
+#legallinks ul li {
+	list-style:none;
+	display: inline-block;
+	font-size:12px;
+	padding:0 5px;
+	@include breakpoint(large) {
+		font-size:11px; 
+		padding: 0 5px;
+	}
+}
+
+.copyright {
+	text-align: center;
+	font-size:12px;
+	@include breakpoint(large) {
+		font-size:11px;
+	}
+}
+
+#home-footer {
+	padding:20px 0;
+	.contact, .review { 
+		@media (max-width: 768px) {
+			text-align: center;
+			width: 100%;
+		}
+	}
+}
+
+#home-footer img {
+	max-width:100%;
+	height:auto;
+	display: block;
+	margin:0 auto;
+}

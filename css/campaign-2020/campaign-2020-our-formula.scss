@@ -1,0 +1,102 @@
+//our formula
+.campaign_2020.page-id-33063 {
+  #content {
+
+    .container {
+      .vc_custom_1602302582973 {
+        padding-top: 70px !important;
+
+        @media(max-width: 1199px) {
+          padding-left: 30px !important;
+        }
+      }
+
+      .vc_custom_1602651544951  {
+        @media(max-width: 1023px) {
+          padding-left: 25px !important;
+        }
+      }
+
+      .our-clincians {
+        margin-bottom: 15px;
+
+        h3 {
+          color: #ffffff;
+          background: $blue_2020;
+          text-align: center;
+          padding: 3px 0;
+        }
+      }
+
+      .campaign-clinicians {
+        .row {
+          margin-bottom: 25px;
+        }
+        .clinician {
+          .bio-photo {
+            display: table;
+            margin: auto;
+
+
+            img {
+              min-width: unset;
+              height: auto;
+
+              @media(min-width: 1150px) {
+                min-width: 220px;
+              }
+            }
+          }
+
+          .bio-content {
+            @media(max-width: 992px) {
+              text-align: center;
+              margin-bottom: 35px;
+            }
+            p.name {
+              font-size: 16px;
+              font-weight: bold;
+              padding-top: 10px;
+              margin-bottom: 5px;
+            }
+
+            p.caption {
+              font-size: 14px;
+              line-height: normal;
+              font-style: italic;
+            }
+          }
+        }
+
+        .campaign-2020-button {
+          float: right;
+
+          @media(max-width: 992px) {
+            float: none;
+            display: table;
+            margin: auto;
+          }
+        }
+      }
+
+      .wpb_single_image {
+        @media(max-width: 767px) {
+          padding: 25px 25px 0 25px;
+          margin-bottom: 15px;
+        }
+        figure {
+          @media(max-width: 767px) {
+            display: table;
+            margin: auto;
+            max-width: 400px;
+          }
+        }
+      }
+
+      .formula-bttn {
+        margin-bottom: 35px;
+      }
+    }
+  }
+
+}

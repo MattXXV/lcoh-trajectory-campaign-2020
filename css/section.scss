@@ -1,0 +1,134 @@
+/** Definitions for page sections **/
+
+#sectionhead {
+	min-height:200px;
+	background:#ccc;
+	position:relative;
+	z-index: 1;
+	background-size:cover;
+	background-position:center center;
+	background-image:url("../images/lcoh-header-default.jpg");
+	
+	@include breakpoint(small) {
+		min-height:300px;
+	}
+	@include breakpoint(medium) {
+		min-height:450px;
+	}
+	@include breakpoint(large) {
+		min-height:500px;
+	}
+	@include breakpoint(huge) {
+		min-height:580px;
+	}
+}
+
+.lcoh_short_header #sectionhead {
+	min-height:150px;
+	@include breakpoint(small) {
+		min-height:200px;
+	}
+	@include breakpoint(medium) {
+		min-height:250px;
+	}
+	@include breakpoint(large) {
+		min-height:300px;
+	}
+	@include breakpoint(huge) {
+		min-height:350px;
+	}
+}
+
+#sectionhead h1 {
+	color:$white;
+	text-transform: uppercase;
+	position:absolute;
+	bottom:0;
+	font-size:30px;
+	text-align: center;
+	width:100%;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+	@include breakpoint(medium) {
+		bottom:30px;
+	}
+}
+
+#sectionhead h1 span {
+	font-size:14px;
+	display: block; 
+	font-weight: normal;
+}
+
+#sectionhead .subnav {
+	display: none;
+	@include breakpoint(large) {
+		display: block;
+		position: absolute;
+		bottom:0;
+		width:100%;
+	}
+}
+
+#sectionhead .subnav .nav-tabs {
+	text-align:center;
+	margin-bottom:10px;
+	border-bottom:1px solid $lightblue;
+}
+
+#sectionhead .subnav .nav-tabs li {
+	float:none;
+    display:inline-block;
+    zoom:1;
+	margin-bottom:0;
+	position:relative;
+	top:10px;
+}
+
+#sectionhead .subnav .nav-tabs li a {
+	background:$royalblue;
+	color:$white;
+	font-size:.9em;
+	border:none;
+	padding:10px 20px 5px;
+}
+
+#sectionhead .subnav .nav-tabs li a:hover {
+	border:none;
+	background:$royalbluehover;
+}
+
+/** Section navigation in mobile tab form  **/
+
+#mobile-tabs {
+	display: block;
+	@include breakpoint(large) {
+		display: none;
+	}
+}
+
+#mobile-tabs .container {
+	padding-left:0;
+	padding-right:0;
+}
+
+#mobile-tabs>li>a, #mobile-tabs a, #mobile-tabs .nav-pills>li>a {
+	background:$royalblue;
+	color: $white;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 0;
+}
+
+#mobile-tabs .nav-pills>li>a:hover, #mobile-tabs .nav-pills>li>a:focus, #mobile-tabs .nav-pills>li>a>a:active, {
+	background:#205b96;	
+}
+
+.mobile-tabs-col {
+	padding-right:0;
+	padding-left:0;
+}
+
+/* Hide Section Tabs */
+.page-id-83 .subnav, .page-id-25313 .subnav {
+	display: none !important;
+}

@@ -1,0 +1,93 @@
+$white: #fff;
+$black: #333;
+$red: #d52028;
+$royalblue: #004c97;
+$royalbluehover: #063d73;
+$warmblue: #282b58;
+$lightblue: #a0aee4;
+$charcoal: #3d3d3d;
+$lightgray: #e5e5e5;
+$mediumgray: #acacac;
+$green: #768625;
+$lightwarmgray: #f8f5f2;
+$blog_blue: #326ea9;
+
+
+$fontsans: 'Myriad Pro', 'myriad-pro', 'Trebuchet MS', Segoe, 'Segoe UI', 'DejaVu Sans', Verdana, sans-serif;
+$fontserif: 'Minion Pro', 'minion-pro', Georgia, 'Times New Roman', Constantia, 'Lucida Bright', 'DejaVu Serif', serif;
+
+html{-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+ 
+.sans {
+	font-family:$fontsans;
+} 
+ 
+.serif {
+	font-family:$fontserif;
+}
+
+$size_huge: 1200px;
+$size_large: 992px;
+$size_medium: 768px;
+$size_small: 480px;
+$size_xsmall: 320px;
+  
+
+@mixin breakpoint($point) {
+   @if $point == huge {
+     @media (min-width: 1200px) { @content ; }
+  }
+   @else if $point == large {
+     @media (min-width: 992px) { @content ; }
+  }
+    @else if $point == medium {
+     @media (min-width: 768px) { @content ; }
+  }
+   @else if $point == small {
+     @media (min-width: 480px)  { @content ; }
+  }
+  @else if $point == xsmall {
+     @media (max-width: 320px)  { @content ; }
+  }
+}
+
+@mixin transition($what: all, $time: 0.2s, $how: ease-in-out) { 
+    -webkit-transition: $what $time $how;
+    -moz-transition:    $what $time $how;
+    -ms-transition:     $what $time $how; 
+    -o-transition:      $what $time $how;
+    transition:         $what $time $how;
+}
+ 
+body {
+	font-family:$fontsans;
+}
+
+a, a:link, a:visited {
+	color:$royalblue;
+}
+
+.bg-gray {
+	background:$lightgray;
+}
+
+.nomargin {
+	margin-bottom:5px;
+}
+
+.lightmargin {
+	margin-bottom:10px; 
+}
+
+/** Includes **/
+@import 'header.scss';
+@import 'footer.scss';
+@import 'content.scss';
+@import 'section.scss';
+@import 'home.scss';
+@import 'blog.scss';
+@import 'events.scss';
+@import 'clinician.scss';
+@import 'forms'; 
+
+@import 'campaign.scss';

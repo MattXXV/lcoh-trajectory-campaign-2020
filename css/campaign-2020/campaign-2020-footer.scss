@@ -1,0 +1,128 @@
+.campaign_2020 {
+  #campaign-footer {
+    background: $blue_2020;
+    width: 100%;
+    padding: 80px 0;
+    border-top: 10px solid $light_blue_2020;
+
+    @media(max-width: 767px) {
+      padding: 40px 0;
+      border-top: 5px solid $light_blue_2020;
+    }
+
+    a {
+      color: white !important;
+    }
+
+    .container {
+      margin: 0;
+      padding: 0;
+    }
+
+    .left-footer-wrap {
+      float: left;
+      width: 25%;
+      @media(max-width: 860px) {
+        width: 50%;
+        margin-bottom: 40px;
+      }
+      @media(max-width: 767px) {
+        width: 50%;
+        margin-bottom: 0px;
+      }
+      img {
+        width: 100%;
+        min-width: 250px;
+        position: relative;
+        left: -15px;
+
+        //@media(max-width: 762px) {
+        //  width: 50%;
+        //  margin-bottom: 40px;
+        //}
+
+      }
+    }
+    .right-footer-wrap {
+      padding-left: 15px;
+      position: relative;
+      top: -15px;
+      float: left;
+
+      @media(max-width: 975px) {
+        padding-left: 45px;
+      }
+
+
+      //@media(max-width: 860px) {
+      //  padding-left: 65px;
+      //}
+
+      @media(max-width: 767px) {
+        padding: 0 15px;
+        top: 0;
+        margin: 40px auto 0 auto;
+        float: none;
+        display: table;
+      }
+
+      .sec-one {
+        font-size: 40px;
+        color: white !important;
+        font-family: "Minion Pro";
+
+        @media(max-width: 1199px) {
+          font-size: 32px;
+        }
+
+        @media(max-width: 992px) {
+          font-size: 28px;
+        }
+
+        @media(max-width: 762px) {
+          font-size: 20px;
+        }
+      }
+
+      .sec-two {
+        font-size: 28px;
+        color: white !important;
+        margin-top: 15px;
+
+        a {
+          color: white !important;
+        }
+
+        @media(max-width: 1199px) {
+          font-size: 24px;
+        }
+
+        @media(max-width: 992px) {
+          font-size: 22px;
+        }
+
+        @media(max-width: 762px) {
+          font-size: 16px;
+        }
+      }
+
+      .sec-three {
+        font-size: 24px;
+        color: white !important;
+        margin-top: 10px;
+
+        @media(max-width: 1199px) {
+          font-size: 21px;
+        }
+
+        @media(max-width: 992px) {
+          font-size: 20px;
+        }
+
+        @media(max-width: 762px) {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
