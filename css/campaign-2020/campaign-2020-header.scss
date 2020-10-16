@@ -19,10 +19,19 @@
     top: 0 !important;
     padding: 0;
     border-top: 20px solid #00518a;
-    height: fit-content !important;
+    height: fit-content;
+    min-height: 200px;
 
     @media(max-width: 767px) {
       border-top: 10px solid #00518a;
+    }
+
+    @media(min-width: 1024px) {
+      min-height: 318px;
+    }
+
+    @media(min-width: 1200px) {
+      min-height: 402px;
     }
 
     .landing-pre-header {
@@ -114,34 +123,116 @@
             font-size: 40px;
           }
         }
+
+        a {
+          color: $dark_blue_2020;
+          text-decoration: none !important;
+        }
       }
     }
 
-    .campaign-banner {
+    .campaign-banner-full {
       display: block;
+      height: 275px;
 
-      //height: 300px;
+      @media(max-width: 1199px) {
+        display: none;
+      }
 
-      //.container-fluid {
-      //  height: inherit;
-      //
-      //  .row {
-      //    height: inherit;
-      //
-      //    .col-xs-5 {
-      //      height: inherit;
-      //      background: green;
-      //      width: 38.7%;
-      //    }
-      //
-      //    .col-xs-7 {
-      //      height: inherit;
-      //      background: red;
-      //
-      //      width: 61.3%;
-      //    }
-      //  }
-      //}
+      .container-fluid {
+        height: inherit;
+        position: relative;
+
+        .row {
+          height: inherit;
+
+          .col-xs-5 {
+            height: inherit;
+            width: 38.7%;
+            background-color: #8eb8d0;
+            overflow: hidden;
+            position: relative;
+            a {
+              color: $dark_blue_2020;
+              text-decoration: none !important;
+            }
+            h1 {
+              margin: 0;
+              font-family: "Minion Pro";
+              font-size:30px;
+              position: absolute;
+              padding: 40px 0 0 40px;
+
+              @media(min-width: 1200px) {
+                font-size: 27px;
+              }
+
+              @media(min-width: 1280px) {
+                font-size: 30px;
+                padding-left: 45px;
+              }
+
+              @media(min-width: 1465px) {
+                font-size: 36px;
+                padding-left: 55px;
+              }
+
+              @media(min-width: 1800px) {
+                font-size:40px;
+                padding-left: 65px;
+              }
+
+            }
+
+            img {
+              position: relative;
+              top: 10px;
+              left: 16px;
+              transform: rotate(-6deg);
+              width: 100%;
+
+              @media(min-width: 1200px) {
+                top: 40px;
+              }
+
+              @media(min-width: 1600px) {
+                top: 15px;
+              }
+
+              @media(min-width: 1800px) {
+                top: 0;
+              }
+            }
+            //@media(min-width: 1200px) {
+            //  background: url("/wp-content/themes/lcoh-2017/images/campaign-2020/banner/left-banner-j-3.jpg") no-repeat center center;
+            //  background-size: cover;
+            //}
+            //@media(min-width: 1600px) {
+            //  background: url("/wp-content/themes/lcoh-2017/images/campaign-2020/banner/left-banner-j-2.jpg") no-repeat center center;
+            //  background-size: cover;
+            //}
+            //
+            //@media(min-width: 1800px) {
+            //  background: url("/wp-content/themes/lcoh-2017/images/campaign-2020/banner/left-banner-j.jpg") no-repeat center center;
+            //  background-size: cover;
+            //}
+          }
+
+          .col-xs-7 {
+            height: inherit;
+            //display: none;
+
+          }
+        }
+      }
+
+    }
+
+    .campaign-banner {
+      display: none;
+      @media(max-width: 1199px) {
+        display: block;
+      }
 
       img {
         max-width: 100%;
@@ -175,9 +266,10 @@
         border-bottom: 5px solid $light_blue_2020;
       }
 
-      @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-        height: 96px;
+      @media(min-width: 993px) {
+        height: 106px;
       }
+
 
       .adj-mobile {
         position: relative;

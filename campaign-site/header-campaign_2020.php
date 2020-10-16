@@ -2,8 +2,7 @@
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
-<!--	<meta name="viewport" content="width=device-width" />-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width" />
 
 	<!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -40,31 +39,53 @@
             <div class="landing-pre-header">
                 <div class="container">
                     <div class="col-sm-12" style="padding-left: 0">
-                <h1>Lindner Center of HOPE <br> <span>is Changing the Trajectory</span> <br/> <span>of Mental Healthcare</span></h1>
+                        <h1><a href="https://lindnercenterofhope.org/changing-the-trajectory-of-mental-healthcare/">Lindner Center of HOPE <br> <span>is Changing the Trajectory</span> <br/> <span>of Mental Healthcare</span></a></h1>
                     </div>
                 </div>
             </div>
             <?php else : ?>
-            <div class="campaign-banner">
-                <?
-//                $postID = get_the_ID();
-                if($postID == 33075 ) : ?>
-                    <img class="large-img" src="<?php echo get_stylesheet_directory_uri();?>/images/campaign-2020/banner/approach-banner-lg.jpg" />
-                    <img class="small-img" src="<?php echo get_stylesheet_directory_uri();?>/images/campaign-2020/banner/approach-banner-md.jpg" />
-                <? endif; ?>
+            <div class="campaign-banner-full">
+               <div class="container-fluid" style="padding: 0; margin: 0" >
+                   <div class="row">
+                       <div class="col-xs-5 left-banner" style="padding: 0; margin: 0">
+                           <a href="https://lindnercenterofhope.org/changing-the-trajectory-of-mental-healthcare/">
+                           <h1>Lindner Center of HOPE <br> <span>is Changing the Trajectory</span> <br/> <span>of Mental Healthcare</span></h1>
+                           <img src="<?php echo get_stylesheet_directory_uri();?>/images/campaign-2020/banner/airplane.png"/>
+                           </a>
+                       </div>
 
-                <?
-                if($postID == 33063 || $postID == 33129  ) : ?>
-                    <img class="large-img" src="<?php echo get_stylesheet_directory_uri();?>/images/campaign-2020/banner/formula-lg.jpg" />
-                    <img class="small-img" src="<?php echo get_stylesheet_directory_uri();?>/images/campaign-2020/banner/formula-md.jpg" />
-                <? endif; ?>
+                       <div class="col-xs-7 right-banner"  style="padding: 0; margin: 0"></div>
+                   </div>
 
-                <?
-                if($postID == 33047 ) : ?>
-                    <img class="large-img" src="<?php echo get_stylesheet_directory_uri();?>/images/campaign-2020/banner/vision-lg.jpg" />
-                    <img class="small-img" src="<?php echo get_stylesheet_directory_uri();?>/images/campaign-2020/banner/vision-md.jpg" />
-                <? endif; ?>
+               </div>
             </div>
+
+            <div>
+                <div class="campaign-banner">
+                    <a href="https://lindnercenterofhope.org/changing-the-trajectory-of-mental-healthcare/">
+                    <?
+                    //                $postID = get_the_ID();
+                    if($postID == 33075 ) : ?>
+                        <img class="large-img" src="<?php echo get_stylesheet_directory_uri();?>/images/campaign-2020/banner/approach-banner-lg.jpg" />
+                        <img class="small-img" src="<?php echo get_stylesheet_directory_uri();?>/images/campaign-2020/banner/approach-banner-md.jpg" />
+                    <? endif; ?>
+
+                    <?
+                    if($postID == 33063 || $postID == 33129  ) : ?>
+                        <img class="large-img" src="<?php echo get_stylesheet_directory_uri();?>/images/campaign-2020/banner/formula-lg.jpg" />
+                        <img class="small-img" src="<?php echo get_stylesheet_directory_uri();?>/images/campaign-2020/banner/formula-md.jpg" />
+                    <? endif; ?>
+
+                    <?
+                    if($postID == 33047 ) : ?>
+                        <img class="large-img" src="<?php echo get_stylesheet_directory_uri();?>/images/campaign-2020/banner/vision-lg.jpg" />
+                        <img class="small-img" src="<?php echo get_stylesheet_directory_uri();?>/images/campaign-2020/banner/vision-md.jpg" />
+                    <? endif; ?>
+                    </a>
+                </div>
+            </div>
+
+
             <? endif; ?>
 
                 <div class="campaign-menu-bar">

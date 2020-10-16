@@ -1,6 +1,17 @@
 //our visions
 .campaign_2020.page-id-33047 {
 
+  #header {
+    .campaign-banner-full {
+      .right-banner {
+        @media(min-width: 1200px) {
+          background: url("/wp-content/themes/lcoh-2017/images/campaign-2020/banner/vision-right.jpg") no-repeat center center;
+          background-size: cover;
+        }
+      }
+    }
+  }
+
   #content {
     .container {
       .vc_custom_1602651486939 {

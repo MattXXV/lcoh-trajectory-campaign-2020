@@ -83,6 +83,9 @@
   .campaign_2020 .gform_button.button:hover {
     background: #00518a; }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .page-id-33047 #content .container .title-block, .page-id-33063 #content .container .title-block, .page-id-33075 #content .container .title-block, .page-id-33129 #content .container .title-block {
+    padding-top: 50px; } }
 .page-id-33047 #content .container .title-block h1.small, .page-id-33063 #content .container .title-block h1.small, .page-id-33075 #content .container .title-block h1.small, .page-id-33129 #content .container .title-block h1.small {
   font-size: 20px;
   color: #616368;
@@ -185,6 +188,11 @@
       font-size: 22px;
       margin-bottom: 10px; }
 
+@media (min-width: 1200px) {
+  .page-id-33129 #header .campaign-banner-full .right-banner {
+    background: url("/wp-content/themes/lcoh-2017/images/campaign-2020/banner/vision-right.jpg") no-repeat center center;
+    background-size: cover; } }
+
 @keyframes menu_link {
   from {
     width: 0; }
@@ -202,10 +210,17 @@
     top: 0 !important;
     padding: 0;
     border-top: 20px solid #00518a;
-    height: fit-content !important; }
+    height: fit-content;
+    min-height: 200px; }
     @media (max-width: 767px) {
       .campaign_2020 #header {
         border-top: 10px solid #00518a; } }
+    @media (min-width: 1024px) {
+      .campaign_2020 #header {
+        min-height: 318px; } }
+    @media (min-width: 1200px) {
+      .campaign_2020 #header {
+        min-height: 402px; } }
     .campaign_2020 #header .landing-pre-header {
       width: 100%;
       background: url("/wp-content/themes/lcoh-2017/images/campaign-2020/trajectory-landing-header-bg-2.jpg") no-repeat center center;
@@ -278,8 +293,72 @@
           @media (min-width: 1300px) {
             .campaign_2020 #header .landing-pre-header h1 span {
               font-size: 40px; } }
+        .campaign_2020 #header .landing-pre-header h1 a {
+          color: #003559;
+          text-decoration: none !important; }
+    .campaign_2020 #header .campaign-banner-full {
+      display: block;
+      height: 275px; }
+      @media (max-width: 1199px) {
+        .campaign_2020 #header .campaign-banner-full {
+          display: none; } }
+      .campaign_2020 #header .campaign-banner-full .container-fluid {
+        height: inherit;
+        position: relative; }
+        .campaign_2020 #header .campaign-banner-full .container-fluid .row {
+          height: inherit; }
+          .campaign_2020 #header .campaign-banner-full .container-fluid .row .col-xs-5 {
+            height: inherit;
+            width: 38.7%;
+            background-color: #8eb8d0;
+            overflow: hidden;
+            position: relative; }
+            .campaign_2020 #header .campaign-banner-full .container-fluid .row .col-xs-5 a {
+              color: #003559;
+              text-decoration: none !important; }
+            .campaign_2020 #header .campaign-banner-full .container-fluid .row .col-xs-5 h1 {
+              margin: 0;
+              font-family: "Minion Pro";
+              font-size: 30px;
+              position: absolute;
+              padding: 40px 0 0 40px; }
+              @media (min-width: 1200px) {
+                .campaign_2020 #header .campaign-banner-full .container-fluid .row .col-xs-5 h1 {
+                  font-size: 27px; } }
+              @media (min-width: 1280px) {
+                .campaign_2020 #header .campaign-banner-full .container-fluid .row .col-xs-5 h1 {
+                  font-size: 30px;
+                  padding-left: 45px; } }
+              @media (min-width: 1465px) {
+                .campaign_2020 #header .campaign-banner-full .container-fluid .row .col-xs-5 h1 {
+                  font-size: 36px;
+                  padding-left: 55px; } }
+              @media (min-width: 1800px) {
+                .campaign_2020 #header .campaign-banner-full .container-fluid .row .col-xs-5 h1 {
+                  font-size: 40px;
+                  padding-left: 65px; } }
+            .campaign_2020 #header .campaign-banner-full .container-fluid .row .col-xs-5 img {
+              position: relative;
+              top: 10px;
+              left: 16px;
+              transform: rotate(-6deg);
+              width: 100%; }
+              @media (min-width: 1200px) {
+                .campaign_2020 #header .campaign-banner-full .container-fluid .row .col-xs-5 img {
+                  top: 40px; } }
+              @media (min-width: 1600px) {
+                .campaign_2020 #header .campaign-banner-full .container-fluid .row .col-xs-5 img {
+                  top: 15px; } }
+              @media (min-width: 1800px) {
+                .campaign_2020 #header .campaign-banner-full .container-fluid .row .col-xs-5 img {
+                  top: 0; } }
+          .campaign_2020 #header .campaign-banner-full .container-fluid .row .col-xs-7 {
+            height: inherit; }
     .campaign_2020 #header .campaign-banner {
-      display: block; }
+      display: none; }
+      @media (max-width: 1199px) {
+        .campaign_2020 #header .campaign-banner {
+          display: block; } }
       .campaign_2020 #header .campaign-banner img {
         max-width: 100%; }
       .campaign_2020 #header .campaign-banner .large-img {
@@ -300,9 +379,9 @@
       @media (max-width: 767px) {
         .campaign_2020 #header .campaign-menu-bar {
           border-bottom: 5px solid #8eb8d0; } }
-      @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      @media (min-width: 993px) {
         .campaign_2020 #header .campaign-menu-bar {
-          height: 96px; } }
+          height: 106px; } }
       .campaign_2020 #header .campaign-menu-bar .adj-mobile {
         position: relative;
         margin: auto !important;
@@ -407,6 +486,10 @@
     .campaign_2020.scrolled #brand-logo {
       display: none; } }
 
+@media (min-width: 1200px) {
+  .campaign_2020.page-id-33047 #header .campaign-banner-full .right-banner {
+    background: url("/wp-content/themes/lcoh-2017/images/campaign-2020/banner/vision-right.jpg") no-repeat center center;
+    background-size: cover; } }
 @media (max-width: 1023px) {
   .campaign_2020.page-id-33047 #content .container .vc_custom_1602651486939 {
     padding-left: 25px !important; } }
@@ -420,6 +503,10 @@
     margin: auto;
     max-width: 400px; } }
 
+@media (min-width: 1200px) {
+  .campaign_2020.page-id-33075 #header .campaign-banner-full .right-banner {
+    background: url("/wp-content/themes/lcoh-2017/images/campaign-2020/banner/approach-right.jpg") no-repeat center center;
+    background-size: cover; } }
 @media (max-width: 1023px) {
   .campaign_2020.page-id-33075 #content .container .vc_custom_1602651575893 {
     padding-left: 25px !important; } }
@@ -512,6 +599,10 @@
     .campaign_2020.page-id-33075 #content .container .approach-chart table td p:nth-of-type(6) {
       margin-bottom: 47px; }
 
+@media (min-width: 1200px) {
+  .campaign_2020.page-id-33063 #header .campaign-banner-full .right-banner {
+    background: url("/wp-content/themes/lcoh-2017/images/campaign-2020/banner/formula-right.jpg") no-repeat center center;
+    background-size: cover; } }
 .campaign_2020.page-id-33063 #content .container .vc_custom_1602302582973 {
   padding-top: 70px !important; }
   @media (max-width: 1199px) {
@@ -678,7 +769,7 @@
         padding-left: 45px; } }
     @media (max-width: 767px) {
       .campaign_2020 #campaign-footer .right-footer-wrap {
-        padding: 0 15px;
+        padding: 0;
         top: 0;
         margin: 40px auto 0 auto;
         float: none;
@@ -696,6 +787,9 @@
       @media (max-width: 762px) {
         .campaign_2020 #campaign-footer .right-footer-wrap .sec-one {
           font-size: 20px; } }
+      @media (max-width: 380px) {
+        .campaign_2020 #campaign-footer .right-footer-wrap .sec-one {
+          font-size: 19px; } }
     .campaign_2020 #campaign-footer .right-footer-wrap .sec-two {
       font-size: 28px;
       color: white !important;

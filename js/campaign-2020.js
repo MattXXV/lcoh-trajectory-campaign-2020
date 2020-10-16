@@ -27,3 +27,40 @@ var bodyClass = document.querySelector('body');
 if(bodyClass.classList.contains('page-id-33014')) {
   startImgRotator();
 }
+
+
+function headerDOM() {
+  var body = document.querySelector('body');
+  var header = document.querySelector('header');
+  var fullHeaderWidth = header.getBoundingClientRect().width;
+  var screenWidth = body.getBoundingClientRect().width;
+  var siteContainer = 1170;
+  var overSpace = screenWidth - 1170;
+  var leftHeaderWidth = 0;
+  var rightHeaderWidth = 0;
+  var leftBanner = document.querySelector('.left-banner.col-xs-5');
+  var rightBanner = document.querySelector('.right-banner.col-xs-7');
+
+  if(overSpace > 0) {
+    overSpace = overSpace / 2;
+
+    leftHeaderWidth = (1170 * .30) + overSpace + 60;
+    rightHeaderWidth = (fullHeaderWidth - leftHeaderWidth) + 30;
+
+    if(leftBanner) {
+      console.log('leftBanner True')
+      leftBanner.style.width = leftHeaderWidth + 'px';
+      rightBanner.style.width = rightHeaderWidth + 'px';
+    } else {
+      console.log('leftBanner False')
+    }
+
+
+  } else {
+
+  }
+
+}
+
+window.onresize = headerDOM;
+headerDOM();

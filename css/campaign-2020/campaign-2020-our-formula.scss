@@ -1,5 +1,16 @@
 //our formula
 .campaign_2020.page-id-33063 {
+
+  #header {
+    .campaign-banner-full {
+      .right-banner {
+        @media(min-width: 1200px) {
+            background: url("/wp-content/themes/lcoh-2017/images/campaign-2020/banner/formula-right.jpg") no-repeat center center;
+            background-size: cover;
+        }
+      }
+    }
+  }
   #content {
 
     .container {
